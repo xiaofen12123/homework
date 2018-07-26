@@ -1,0 +1,27 @@
+body{
+	background-color: pink;
+}
+div{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 440px;
+	background-image: url(../images/bgp2.jpg);
+}
+h3{
+	color: #F3C;
+	font-size: 36px; 
+	position: relative;
+	top:240px; 
+	left: 300px;
+}
+a{
+	background-color: #fff;
+	position: relative;
+	top:245px;
+	left: 400px;
+}
+a:hover{
+	background-color: #666;
+	color: #039;
+}

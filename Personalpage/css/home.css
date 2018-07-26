@@ -1,0 +1,54 @@
+body{
+	background-color: #ccc;
+}
+#div1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+nav{
+	background-color: #999;
+    padding: 5px 10px 5px;
+	border:solid 1px #666;
+}
+nav a{
+	text-decoration: none;
+	text-align: center; 
+	padding-right: 10px;   
+	border-right: solid 1px #FFF;
+	color: #111;
+}
+nav a:hover{
+    color: #06f;
+}
+main{
+	background-color: lightgreen;
+	padding:10px 20px 5px;
+	border-left: solid 1px #666;
+	border-right:  solid 1px #666;
+	height: 550px;
+	background-image: url(../images/bgp1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+main img{
+	border-radius: 35px;
+}
+main table{
+	text-align: center;
+	position: relative;
+	top:80px;
+	left: 270px;
+	padding: 2px 3px 2px;
+}
+
+footer{
+	background-color: lightgreen;
+	border: solid 1px #666;
+	text-align: center;
+	padding-top:3px;
+	padding-bottom: 3px;
+}
+footer span{
+     font-family: Verdana, Geneva, sans-serif;
+}

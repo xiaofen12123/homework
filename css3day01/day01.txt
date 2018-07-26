@@ -1,0 +1,78 @@
+HTML5中新增的表单元素
+  progress
+  output
+  meter
+    min max low high value optimum
+  datalist
+input空间中新增的type类型
+  type
+    date
+    time
+    datetime-local
+    week
+    month
+    email
+    tel 
+    url
+    color
+    search
+    range
+  属性
+    required 布尔属性
+    autofocus 自动聚焦
+    placeholder 提示
+    value
+    list
+    max/min
+1、html中遗留的内容
+   from
+      form
+      formaction
+      formmethod
+      formtarget
+      formnovalidate
+      formenctype
+    H5的结构性元素（搭建html5页面）
+      header
+      nav
+      article
+      section
+      aside
+      footer
+      address
+      figure>figcation
+      detail>summary
+2、css3  层叠样式表
+   2.1语法：选择器{ 声明语句; 声明语句; ...}
+    html中：<p style="backgorund-color:pink;"></p>
+    css中：p{ background-color:pink; }
+
+   2.1.1生命周期
+    加载html文档->解析html-->生成dom树
+                          \|        |\
+                         加载css->解析css
+
+
+               document
+                  \|
+                  html<---------------根元素
+               |/   |-----------------|/
+   head(meta  title link\script)     body
+
+   2.2  三种样式
+     行内样式  元素的style属性
+     嵌入样式    head标签中的style样式
+
+   2.3选择器
+     id选择器  页面上有唯一被选中的元素的时候
+     标签选择器 直接选中标签
+     类选择器  选中一类标签
+     通配符选择器 通常用于初始化页面的时候
+
+
+     层级选择器
+	     后代选择器   空格隔开
+	     子代选择器    > 子一代被选中
+	     相邻兄弟选择器 + 相邻的弟弟
+	     普通兄弟选择器 ~ 后面所有的弟弟
+	 

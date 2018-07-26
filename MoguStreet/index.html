@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎来到蘑菇街</title>
+	<link rel="stylesheet" type="text/css" href="CSS/login.css">
+</head>
+<body>
+
+<div id="div1">
+ <header>
+  <a href="#"><img src="images/mogulogo_220x52.png" /></a>
+ </header>
+ <main>
+ 	<div id="main_left">
+      <img src="images/zhuce_400x300.jpg" />
+ 	</div>
+ 	<div id="main_right">
+       <div id="all_login">
+       	<h4 class="origin_lg">普通登录</h4>
+       	<h4 class="nopassword">手机无密码登录</h4>
+       </div>
+
+       <!--普通登录-->
+       <div id="original_login">
+         <input type="text" name="userId" placeholder="昵称/邮箱/手机号码" /><br />
+         <input type="password" name="pwd" placeholder="密码" /><br />
+        <input type="checkbox">两周内自动登录
+	       <a href="#">忘记密码?</a><br />
+	       <input type="submit" name="login" value="登录"><br />
+           <a href="#" id="foreigntel">海外手机登录</a> 
+           <a href="#" id="newuser">新用户注册</a>
+           <br />
+           <label>无需注册可登录：</label> <br />
+           
+       </div>
+
+       <!--手机无密码登录-->
+       <div id="nopasswordlogin">
+	       <select size="1" name="phoneaddress" id="phoneaddress">
+	        <option value="中国">中国</option>
+	        <option value="埃塞俄比亚">埃塞俄比亚</option>
+	       </select>
+	       <input type="tel" placeholder="手机号码" /><br/>
+	       <input type="text" placeholder="动态密码" /><br />
+	       <input type="submit" value="获取手机动态密码"><br />
+	       <input type="checkbox">两周内自动登录
+	       <a href="#">忘记密码?</a><br />
+	       <input type="submit" name="login" value="登录"><br />
+           <a href="#" id="foreigntel">海外手机登录</a> 
+           <a href="#" id="newuser">新用户注册</a>
+           <br />
+           <label>无需注册可登录：</label> <br />
+           <a href="#" id="QQ"><image src="images/sprite_200x300.png" /></a>&nbsp;
+           <a href="#" id="wechat"><image src="images/sprite_200x300.png" /></a>&nbsp;
+           <a href="#" id="blog"><image src="images/sprite_200x300.png" /></a>&nbsp;
+       </div>
+ 	</div>
+ </main>
+ <footer>
+  <hr>
+  <span>&copy;Copyright 2010-2016蘑菇街 Mogujie.com（增值业务经营许可证：浙B2-20110349）</span>
+ </footer>
+</div>
+	
+</body>
+</html>

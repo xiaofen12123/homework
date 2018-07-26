@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>H5新增表单元素</title>
+</head>
+<body>
+    <form>
+		<p><progress style="height:5px;" value="30" max="100" id="pro"></progress></p>
+	</form>
+</body>
+<script type="text/javascript">
+    //页面加载成功之后执行function中的代码
+	window.onload=function(){
+		//每过100ms,执行function中的代码
+		setInterval(function(){
+           	//获取process标签的value值
+            //document.getElementById("pro").value++; 
+            if(document.getElementById("pro").value<100){
+            	document.getElementById("pro").value++; 
+            }
+            else{
+            	document.getElementById("pro").value=0;
+            }
+		},100);
+	}
+</script>
+</html>

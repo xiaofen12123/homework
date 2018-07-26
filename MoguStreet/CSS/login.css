@@ -1,0 +1,49 @@
+/*login*/
+#div1{
+	margin-left: auto;
+	margin-right: auto;
+	width:80%;
+	background-color: lightblue;
+}
+#div1 header{
+	padding: 10px 20px 5px;
+	border-bottom: 1px solid #666;
+}
+#main_left{
+	float:left;
+	padding: 5px 5px 5px 25px;
+}
+#main_right{
+	border:solid 1px #666;
+	float: right;
+	padding: 20px 5px 5px;
+}
+#main_right #all_login .origin_lg{
+    float: left;
+    padding-left: 60px;
+}
+#main_right #all_login .nopassword{
+	float: right;
+	padding-right: 60px;
+}
+#main_right #all_login{
+    clear: both;
+    border-bottom: solid 1px #999; 
+}
+#main_right #original_login{
+	clear: both;
+}
+#main_right #nopasswordlogin a image{
+  width:100px;
+  height:35;
+  position: relative 0px -120px;
+}
+#div footer{
+	clear:both;	
+}
+#div footer hr{
+    	
+}
+#div footer span{
+    color:#CCC;
+}

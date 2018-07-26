@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+   <h1>学生注册页面</h1>
+   <form action="#" enctype="multipart/form-data" name="form1" target="_blank">
+   	<p><label for="username">姓名：</label><input type="text" name="stuname" id="username" placeholder="请输入您的姓名"></p>
+   	<p><label for="idNumber"> 学号：</label><input type="text" name="id" id="idNumber" placeholder="请输入您的学号"></p>
+   	<p><label for="sex"> 性别：</label><input type="radio" name="gender" value="male" id="male"><label for="male">男</label><input type="radio" name="gender" value="female" id="female"><label for="female">女</label></p>
+   	<p>
+	   	<label for="hobbies">爱好：</label><input type="checkbox" name="sing" value="sing" id="sing"><label for="sing">唱歌</label>
+	     <input type="checkbox" name="dance" value="dance" id="hobbies"><label for="dance">跳舞</label>
+   	</p>
+   	<p><label for="picture">照片：</label><input type="file" name="photo" id="picture"></p>
+   	<p><label for="hidden">隐藏：</label><input type="hidden" name="Hidden" value="隐藏"></p>
+   	<p><input type="submit" name="Submit" value="submit">&nbsp;&nbsp;<input type="reset" name="Reset" value="Reset"></p>
+   	<p><input type="image" name="pic" src="images/ly.jpeg" width="200" height="112" alt="图片加载失败"></p>
+   </form>	
+</body>
+</html>

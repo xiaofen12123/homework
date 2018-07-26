@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册账号页面</title>
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<script type="text/javascript" src="js/register.js"></script>
+</head>
+<body>
+	<div id="div1">
+		<h2>注册账号</h2>
+		<hr>
+		<div id="div2">
+			<form>
+				<p><label for="nc">昵称&nbsp;</label><input type="text" name="nickname" placeholder="请输入昵称" id="nc" size="40" autofocus required></p>
+				<p><label for="psd">密码&nbsp;</label><input type="password" name="pwd" id="psd" size="40" required placeholder="请输入密码"></p>
+			    <p><label for="psd1">确认密码&nbsp;</label><input type="password" name="pwd1" id="psd1" size="40" required placeholder="请再次输入密码" onblur="return checkpassword()">
+                <span id="errorpwd" style="display:none; color:red; font-size:.5em;">两次输入的密码不一致</span>
+			    </p>
+			    <p>
+			    <label for="sex">性别&nbsp;</label>
+			    <input type="radio" name="gender" value="male" id="n" checked><label for="n">男</label>
+			    <input type="radio" name="gender" value="female" id="v"><label for="v">女</label>
+			    </p>	
+			    <p>
+			    	<label for="sr">生日&nbsp;</label>
+			    	<select name="日历">
+			    		<option value="公历" selected>公历</option>
+			    		<option value="农历">农历</option>
+			    	</select>
+			    	<input type="date" name="birthday">
+			    </p>   
+			    <p>
+			    	<label for="szd">所在地&nbsp;</label>
+			    	<select name="province">
+			    	    	<option value="山西" selected>山西</option>
+			    			<option value="江西">江西</option>
+			    			<option value="江苏">江苏</option>
+			    	</select>
+			    	<select name="city" size="1">
+			    	    <optgroup label="江西">
+			    	    	<option value="南昌">南昌</option>
+			    	    	<option value="赣州">赣州</option>
+			    	    </optgroup>
+			    		<optgroup label="江苏">
+			    			<option value="徐州">徐州</option>
+			    			<option value="昆山">昆山</option>
+			    		</optgroup>
+			    		<optgroup label="山西">
+			    			<option value="太原" selected>太原</option>
+			    		</optgroup>	
+			    	</select>
+			    </p> 
+			    <p><label for="phone">手机号码&nbsp;</label><input type="tel" name="telephone" size="40" maxlength="11" required placeholder="请输入您的手机号码" pattern="[0-9]{11}" maxlength="11"></p>
+			    <p><input type="submit" name="register" value="立即注册"></p>
+			    <p>
+			    <input type="checkbox" name="box1" checked id="b1" value="同时开通QQ空间"><label for="b1">同时开通QQ空间</label>
+			    </p>
+			    <p>
+			    <input type="checkbox" name="box2" checked id="b1" value="我已阅读并同意相关条款和隐私政策"><label for="b2">我已阅读并同意相关条款和隐私政策</label>
+			    </p>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

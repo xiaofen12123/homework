@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>兄弟选择器</title>
+	<style type="text/css">
+		/*下一个兄弟选择器*/
+		/*#secondson + .son{
+			border:solid 1px blue;
+		}*/
+		/*此元素后面的所有兄弟选择器*/
+		#secondson ~.son{
+			border:solid 1px blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="parent"> 
+		<div class="son">
+            son1<div class="grandson">grandson1</div>
+                <div class="son">grandson2</div>
+		</div>
+		<div class="son" id="secondson">son2</div>
+		<div class="son">son3</div>
+	</div>	
+</body>
+</html>

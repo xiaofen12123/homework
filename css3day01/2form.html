@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form表单遗留2</title>
+</head>
+<body>
+	<form action="register.action" method="get">
+	    <p>
+	    	<input type="text" name="username">
+	    </p>
+	    <p>
+	    	<input type="password" name="pwd">
+	    </p>
+	    <p>
+	    	<input type="url" name="url1">
+	    </p>
+	    <p>
+	    <!-- 修改提交 -->
+	    <!-- formation用于提交按钮上，提交到不同的后台处理程序 -->
+	    <!-- formnovalidate 的true值为不校验,false值为校验 -->
+	    	<input type="image" src="images/k.jpg" name="img1" alt="此处有图片" formaction="register1.action" formmethod="post"  formenctype="" formnovalidate="true" formtarget="_blank">
+	    </p>
+	    <!-- 默认提交 -->
+		<input type="submit" name="Submit"> 
+	</form>
+</body>
+</html>

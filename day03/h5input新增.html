@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>h5input新增表单元素</title>
+</head>
+<body>
+	<form action="#" id="form1">
+		<input type="date" name="date">
+		<input type="time" name="time">
+		<input type="datetime-local" name="datetime">
+		<input type="month" name="month">
+		<input type="week" name="week">
+	</form>
+	<form action="#" id="form2">
+	<!-- value的值可以随着表单进行提交，placeholder不可以随着表单进行提交 -->
+		<input type="tel" name="tel" pattern="[0-9]{11}" autofocus required="required" placeholder="请输入您的电话号码">
+		<input type="email" name="email" placeholder="请输入邮箱">
+		<input type="url" name="url">
+		<input type="color" name="color">
+		<input type="number" name="number">
+		<input type="range" name="range">
+		<input type="search" name="search">
+        <input type="submit" name="Submit" value="提交">
+	</form>
+</body>
+</html>

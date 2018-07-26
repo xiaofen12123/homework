@@ -1,0 +1,5 @@
+get方法限制数据大小，一般为1024
+表单必须的属性（name），否则无法提交
+form表单中的按钮必须写在表单中，否则无法实现其功能
+type如果是radio
+布尔属性  （multiple,checked,selected，disabled）有三种表现形式，eg.1、 multiple="multiple"    2、multiple="true"   3、 multiple

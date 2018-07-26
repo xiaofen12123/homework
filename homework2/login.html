@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>考生登录页面</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script type="text/javascript" src="js/login.js"></script>
+</head>
+<body>
+	<div>
+		<form action="#">
+			<fieldset>
+				<legend>考生登录</legend>
+				<p><label for="username">真实姓名：</label><input type="text" name="truename" placeholder="请输入您的真实姓名" id="username" autofocus="true" maxlength="18" required></p>
+				<p>
+					<label for="IDtype">证件类型：</label>
+					<select name="idtype" id="IDtype">
+						<option value="IDCard" selected="selected">身份证</option>
+					<option value="soldierCard">军人证</option>
+					<option value="other">其他</option>
+					</select>
+				</p>
+				<p><label for="IDnumber">证件号码:</label><input type="number" name="idnumber" id="IDnumber" placeholder="请输入您的证件号码"  maxlength="18" required onblur=" return isIDNum();"></p>
+	            <p><label for="enList">报名序号：</label><input type="number" name="enlist" id="enList" required placeholder="请输入您的报名序号"></p>
+	            <p><label for="CheckCode">校验码</label><input type="number" name="checkcode" id="CheckCode"
+	            pattern="[0-9]{4}" required placeholder="请输入校验码"></p>
+	            <p>
+	            	<input type="submit" name="Submit" value="登录">
+	            	<input type="button" name="findback" value="找回报名序号">
+	            </p>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>
